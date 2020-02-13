@@ -16,12 +16,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-
-#include <stdio.h>
-
-int	main(void)
-{
-	char i[] = "mama papa i";
-	printf("%d", (ft_putstr(i)));
-	return (0);
-}
